@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/ethan/.nvm/versions/node/v10.15.0/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js add node-fluent-ffmpeg
+
+PATH: 
+  /usr/local/opt/qt/bin:/usr/local/opt/icu4c/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/ethan/.nvm/versions/node/v10.15.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/usr/local/apache-maven/apache-maven-3.5.0/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/node-fluent-ffmpeg: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:66830:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:140464:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:141436:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:141358:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "video-image-combiner",
+    "version": "1.0.0",
+    "description": "An application used to combine videos and images.",
+    "main": "index.js",
+    "author": "Ethan Hasson",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

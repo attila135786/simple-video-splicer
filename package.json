@@ -1,0 +1,15 @@
+{
+  "name": "video-image-combiner",
+  "version": "1.0.0",
+  "description": "An application used to combine videos and images.",
+  "main": "index.js",
+  "author": "Ethan Hasson",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security"
+  }
+}
