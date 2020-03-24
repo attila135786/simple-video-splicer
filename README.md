@@ -6,6 +6,7 @@ Splices videos together into a single video.
 # Dependencies
 - Install `ffmpeg`
 - Install `fluent-ffmpeg`
+- Install `ffprobe`
 - run `yarn` in the root directory
 
 # Running the app
